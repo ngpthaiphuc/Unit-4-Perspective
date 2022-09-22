@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MoveObject6 : MonoBehaviour
 {
-    float moveSpeed;
+    // Scene 6: Add SerializeField so it can be edited in the component
+    [SerializeField] float moveSpeed;
     [SerializeField] Vector3 moveDirection;
 
     float totalMoveDistance;
